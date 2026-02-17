@@ -42,4 +42,5 @@ const manush1: manush = {
   },
 };
 
-const home=manush1?.
+const home = manush1?.address?.home ?? "No home";
+console.log(home);
