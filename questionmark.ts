@@ -42,4 +42,4 @@ const manush1: manush = {
   },
 };
 
-const 
+const home=manush1?.
