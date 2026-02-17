@@ -37,8 +37,8 @@ const manush1: manush = {
   name: "Manush",
   age: 100,
   address: {
-    city: "Dhaka",
-    road: "Mirpur49",
+    city: "No City",
+    road: "No Road",
   },
 };
 
