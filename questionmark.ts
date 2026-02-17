@@ -44,3 +44,25 @@ const manush1: manush = {
 
 const home = manush1?.address?.home ?? "No home";
 console.log(home);
+
+type manush2 = {
+  name: string;
+  age: number;
+  address: {
+    city: string;
+    road: string;
+    home?: string;
+  };
+};
+
+const manush3: manush2 = {
+  name: "Nur",
+  age: 29,
+  address: {
+    city: "Pabna",
+    road: "sahapur",
+  },
+};
+
+const nur = manush3.name;
+console.log(nur);
