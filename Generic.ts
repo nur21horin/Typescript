@@ -30,3 +30,8 @@ function name<k>(value:k){
     return value;
 }
 console.log(name("Nur"))
+
+function name<u>(name:u,name1:u){
+    return name,name1;
+}
+console.log("Nur",10)
