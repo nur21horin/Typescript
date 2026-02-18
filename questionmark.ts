@@ -67,8 +67,7 @@ const manush3: manush2 = {
 const nur = manush3.name;
 console.log(nur);
 
-// function throwEror(messsage: string): never {
-//   throw new Error(messsage);
-// }
-
-// console.log(throwEror("Nur Eroro khaice"));
+function throwEror(messsage: string): never {
+  throw new Error(messsage);
+}
+throwEror("Nur Eroro khaice");
