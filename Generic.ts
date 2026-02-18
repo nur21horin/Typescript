@@ -25,3 +25,8 @@ function identity<T>(value: T) {
 
 console.log(identity("NUr Namaj porche"))
 console.log(identity(89-9))
+
+function name<k>(value:k){
+    return value;
+}
+console.log(name("Nur"))
