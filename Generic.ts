@@ -6,13 +6,21 @@ function identity(value: string): string {
 
 console.log(identity("Shofiq Harce"));
 
-function identity(value:number):number{
-    return value;
+function identity(value: number): number {
+  return value;
 }
-console.log(identity(39+3))
+console.log(identity(39 + 3));
 
-function identity(value:number,value1:number):number{
-    return value+value1;
+function identity(value: number, value1: number): number {
+  return value + value1;
 }
 
-console.log(identity(390,383));
+console.log(identity(390, 383));
+
+//generic
+
+function identity<T>(value: T) {
+  return value;
+}
+
+console.log(identity("NUr Namaj porche"))
