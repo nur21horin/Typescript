@@ -9,3 +9,7 @@ const Exam: number[] = [200, 344, 50, 30];
 console.log(Exam)
 Exam[2] = 399;
 console.log(Exam);
+
+//Type inference
+const name2="Nur"
+const score2=300
