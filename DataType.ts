@@ -60,3 +60,6 @@ console.log(Math.round(3.3))
 //MAth.floor
 console.log(Math.floor(4.3))//=>4
 console.log(Math.ceil(4.3))//=>5
+
+//Math.trunc() remove deciaml
+console.log(Math.trunc(7.8))
