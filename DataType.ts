@@ -34,3 +34,8 @@ if (isUserName("AaddumBaagDum")) {
   console.log(user.name)
 
 }
+
+//any keyword
+
+const data:any="Nur"
+console.log(data)
