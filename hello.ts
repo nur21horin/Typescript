@@ -10,3 +10,9 @@ function ReturnGReeting(name:string):string{
 const messageReturn:string=ReturnGReeting("Nur");
 
 console.log(messageReturn)
+
+function Welcome(value:string):string{
+    return `Hey What about You ${value}`;
+}
+const welCome:string=Welcome("nur");
+console.log(welCome)
