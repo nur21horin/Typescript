@@ -40,5 +40,9 @@ let data: any = "Nur";
 console.log(data);
 data = 399;
 console.log(data);
-data = { name: "Anur", age: 78 };
+data = JSON.parse('{ "name": "Anur", "age": 78 }');
 console.log(data)
+
+const response: any = JSON.parse('{"name":"Nur","age":22}');
+
+console.log(response);
