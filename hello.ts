@@ -22,3 +22,9 @@ function Country(value: string): string {
 }
 const CountryName: string = Country("Bangladesh");
 console.log(CountryName);
+
+function CountryIs(value:string):string{
+    return `WHat is the positive ${value}`;
+}
+console.log(CountryIs("IsPropaganda"));
+
