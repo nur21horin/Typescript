@@ -34,6 +34,7 @@ if (isUserName("AaddumBaagDum")) {
   console.log(user.name);
 }
 
+//Some Special type
 //any keyword
 
 let data: any = "Nur";
@@ -46,3 +47,16 @@ console.log(data)
 const response: any = JSON.parse('{"name":"Nur","age":22}');
 
 console.log(response);
+
+//Math round 
+
+//if deciaml >=0.5 round up
+
+console.log(Math.round(3.8))
+
+//if eciaml <=0.5 round down
+console.log(Math.round(3.3))
+
+//MAth.floor
+console.log(Math.floor(4.3))//=>4
+console.log(Math.ceil(4.3))//=>5
