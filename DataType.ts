@@ -69,4 +69,10 @@ let value: unknown = "Hello";
 if (typeof value === "string") {
   console.log(value.toUpperCase());
 }
+//never
+
+function throwError(message:string):never{
+    throw new Error(message)
+};
+
 
