@@ -42,24 +42,31 @@ console.log(data);
 data = 399;
 console.log(data);
 data = JSON.parse('{ "name": "Anur", "age": 78 }');
-console.log(data)
+console.log(data);
 
 const response: any = JSON.parse('{"name":"Nur","age":22}');
 
 console.log(response);
 
-//Math round 
+//Math round
 
 //if deciaml >=0.5 round up
 
-console.log(Math.round(3.8))
+console.log(Math.round(3.8));
 
 //if eciaml <=0.5 round down
-console.log(Math.round(3.3))
+console.log(Math.round(3.3));
 
 //MAth.floor
-console.log(Math.floor(4.3))//=>4
-console.log(Math.ceil(4.3))//=>5
+console.log(Math.floor(4.3)); //=>4
+console.log(Math.ceil(4.3)); //=>5
 
 //Math.trunc() remove deciaml
-console.log(Math.trunc(7.8))
+console.log(Math.trunc(7.8));
+
+//unknown
+let value: unknown = "Hello";
+if (typeof value === "string") {
+  console.log(value.toUpperCase());
+}
+
