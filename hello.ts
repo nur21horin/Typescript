@@ -33,3 +33,4 @@ function Religious(value: string): string {
 }
 const name: string = Religious("Islam");
 console.log(name);
+
