@@ -23,8 +23,13 @@ function Country(value: string): string {
 const CountryName: string = Country("Bangladesh");
 console.log(CountryName);
 
-function CountryIs(value:string):string{
-    return `WHat is the positive ${value}`;
+function CountryIs(value: string): string {
+  return `WHat is the positive ${value}`;
 }
 console.log(CountryIs("IsPropaganda"));
 
+function Religious(value: string): string {
+  return `WHat is your religious ${value}`;
+}
+const name: string = Religious("Islam");
+console.log(name);
