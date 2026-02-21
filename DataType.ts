@@ -71,8 +71,10 @@ if (typeof value === "string") {
 }
 //never
 
-function throwError(message:string):never{
-    throw new Error(message)
-};
+function throwError(message: string): never {
+  throw new Error(message);
+}
+throwError("Nur");
 
-
+let nameNur: string = "NUR ";
+console.log(nameNur);
