@@ -74,7 +74,7 @@ if (typeof value === "string") {
 function throwError(message: string): never {
   throw new Error(message);
 }
-throwError("Nur");
+// throwError("Nur");
 
 let nameNur: string = "NUR ";
 console.log(nameNur);
