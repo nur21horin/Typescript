@@ -41,3 +41,22 @@ class BankAccount {
 const acc = new BankAccount();
 acc.deposit(500);
 console.log(acc.getBalance());
+
+//Inheritance
+class Animal {
+  constructor(public name: string) {}
+
+  makeSound() {
+    console.log("Some sound");
+  }
+}
+
+class Dog extends Animal {
+  bark() {
+    console.log("Woof Woof");
+  }
+}
+
+const d = new Dog("Tommy");
+d.makeSound(); // from parent
+d.bark();      // from child
