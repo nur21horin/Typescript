@@ -20,3 +20,24 @@ class Person{
 
 const p1=new Person("Nur",23);
 console.log(p1.greet())
+
+//public,private, protected, readonly
+
+//Encapsulation
+class BankAccount {
+  private balance: number = 0;
+
+  deposit(amount: number) {
+    if (amount > 0) {
+      this.balance += amount;
+    }
+  }
+
+  getBalance() {
+    return this.balance;
+  }
+}
+
+const acc = new BankAccount();
+acc.deposit(500);
+console.log(acc.getBalance());
