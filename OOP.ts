@@ -1,25 +1,27 @@
-console.log("Welcome in OOP")
+console.log("Welcome in OOP");
 
-console.log("Four pillars Encapsulation, Abstraction, Inheritance, Polymorphism")
+console.log(
+  "Four pillars Encapsulation, Abstraction, Inheritance, Polymorphism",
+);
 
 //class
-class Person{
-    nams:string;
-    age:number;
+class Person {
+  nams: string;
+  age: number;
 
-    constructor(name:string,age:number){
-        this.name=name;
-        this.age=age;
-    }
-    greet(){
-        return `Thank You ${this.name}`;
-    }
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+  greet() {
+    return `Thank You ${this.name}`;
+  }
 }
 
 //Object
 
-const p1=new Person("Nur",23);
-console.log(p1.greet())
+const p1 = new Person("Nur", 23);
+console.log(p1.greet());
 
 //public,private, protected, readonly
 
@@ -59,4 +61,28 @@ class Dog extends Animal {
 
 const d = new Dog("Tommy");
 d.makeSound(); // from parent
-d.bark();      // from child
+d.bark(); // from child
+
+//Polymorphism
+
+class Animal1 {
+  makeSound() {
+    console.log("Animal sound");
+  }
+}
+
+class Cat extends Animal1 {
+  makeSound() {
+    console.log("Meow");
+  }
+}
+
+class Cow extends Animal1 {
+  makeSound() {
+    console.log("Moo");
+  }
+}
+
+const animals: Animal1[] = [new Cat(), new Cow()];
+
+animals.forEach((a) => a.makeSound());
